@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/02/98/55/94/360_F_298559427_xoDhMK55ZbxKmRbQwU5ZS2ZHK2T0OPwB.jpg');
+    background-size: cover;
+}
+
+.box ul li {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	list-style: none;
+	opacity: 0;
+	background: radial-gradient(#aad54d, transparent, transparent );
+	bottom: 0;
+	left: 10vw;
+	animation: animate 15s linear infinite;
+}
+.box ul li:nth-child(2) {
+	left: 30vw;
+	animation-delay: 4s;
+}
+.box ul li:nth-child(3) {
+	left: 22vw;
+	animation-delay: 6s;
+}
+.box ul li:nth-child(4) {
+	left: 70vw;
+	animation-delay: 8s;
+}
+.box ul li:nth-child(5) {
+	left: 79vw;
+	animation-delay: 10s;
+}
+.box ul li:nth-child(6) {
+	left: 82vw;
+	animation-delay: 2s;
+}
+.box ul li:nth-child(7) {
+	left: 30vw;
+	animation-delay: 4s;
+}
+.box ul li:nth-child(8) {
+	left: 22vw;
+	animation-delay: 6s;
+}
+.box ul li:nth-child(9) {
+	left: 70vw;
+	animation-delay: 8s;
+}
+.box ul li:nth-child(10) {
+	left: 79vw;
+	animation-delay: 10s;
+}
+.box ul li:nth-child(11) {
+	left: 82vw;
+	animation-delay: 2s;
+}
+@keyframes animate {
+	0% {
+		transform: scale(0);
+		opacity: 1;
+		bottom: 0;
+	}
+	100% {
+		transform: scale(10);
+		opacity: 0;
+		bottom: 100vh;
+	}
+}
